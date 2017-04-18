@@ -1,7 +1,9 @@
 /**
   * Created by Anh on 4/17/2017.
   */
-object GameData {
+class GameData {}
+
+object GameData extends GameData {
 
   val materials = Map(
     "copper" -> Material("Copper", 100),
